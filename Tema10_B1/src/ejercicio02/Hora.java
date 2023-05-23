@@ -1,5 +1,12 @@
 package ejercicio02;
 
+/**
+ * Clase Hora que gestiona un reloj que comprueba que las horas, minutos y segundos introducidos son válidos,
+ * muestra la hora correcta y modifica la hora en caso de que se le pase un número concreto de segundos.
+ * 
+ * @author isabelkatharinaloerzer
+ *
+ */
 public class Hora {
 
 	//Declaramos los atributos con private.
@@ -129,7 +136,7 @@ public class Hora {
 	}
 	
 	/**
-	 * 
+	 * Función que incrementa en un número de segundos la hora.
 	 * @param incremento
 	 */
 	public void incrementaSegundos(int incremento) {
@@ -165,7 +172,7 @@ public class Hora {
 	}
 	
 	/**
-	 * 
+	 * Función que muestra la hora que es, como un toString.
 	 */
 	public void muestraHora () {
 		
